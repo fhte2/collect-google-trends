@@ -1,4 +1,4 @@
-# google_trends
+# collect_google_trends
 
 This is a simple script which pulls data from Google trends and saves them as a BigQuery table. For exercise purposes, the script has been dockerized.
 
