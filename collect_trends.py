@@ -62,8 +62,8 @@ if __name__ == '__main__':
     parser.add_argument('--keyword', required=True, help='keyword you would like to extract the trend for')
     parser.add_argument('--start_date', required=True, help='start date for data, format YYYY-MM-DD')
     parser.add_argument('--end_date', required=True, help='end date for keyword, format YYYY-MM-DD')
-    parser.add_argument('--project', required=True, help='GC project name')
-    parser.add_argument('--dataset', required=True, help='dataset')
+    parser.add_argument('--project', required=True, help='the name of your google cloud project')
+    parser.add_argument('--dataset', required=True, help='name of the BigQuery dataset where the table should be saved')
 
     args = parser.parse_args()
 

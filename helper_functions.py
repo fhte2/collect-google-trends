@@ -1,11 +1,17 @@
 
 def trim_month(month):
+    """
+    removes leading zeroes from month numbers
+    """
     if list(month)[0] == '0':
         return month[1]
     else:
         return month
 
 def check_date(start_year, end_year, start_month, end_month):
+    """
+    checks if the input dates makes sense
+    """
     if end_year < start_year:
         print('End year cannot be smaller than start year. Update the dates and try again.')
         return False
